@@ -54,7 +54,7 @@ window.onclick = function (event) {
 
 function copyUrl() {
   let url = window.location.href;
-  let tmp = document.creatElement('input');
+  let tmp = document.createElement('input');
 
   document.body.appendChild(tmp);
   tmp.value = url;
