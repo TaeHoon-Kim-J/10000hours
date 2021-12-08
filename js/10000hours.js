@@ -25,7 +25,7 @@ function calculator() {
   } else if(timeValue_int > 24) {
     alert('잘못된 값입니다. 24 이하의 값을 입력해 주세요.');
     return false;
-  } else if(timeValue_int < 0 or timeValue_int == 0) {
+  } else if(timeValue_int < 0) {
     alert('잘못된 값입니다. 1 이상의 값을 입력해 주세요.');
     return false;
   }
